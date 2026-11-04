@@ -1,0 +1,62 @@
+[
+  {
+    "id": "novamed-ai-agent",
+    "type": "case",
+    "title": "AI Agent tại Novamed",
+    "description": "Dựng AI agent trên OpenClaw cho từng phòng ban, bắt đầu từ phòng Kỹ thuật. Kết nối bot qua Telegram và Bitrix24, tự động tổng hợp ticket hằng ngày và thử nghiệm trợ lý số AI cho nhân viên.",
+    "media": "",
+    "role": "AI Agent & Automation",
+    "year": "2026",
+    "category": "AI & Automation",
+    "image": "./Asset/img/projects/novamed-ai-agent.svg",
+    "en": {
+      "title": "AI Agent at Novamed",
+      "description": "Building AI agents on OpenClaw for each department, starting with the Technical department. Connecting bots through Telegram and Bitrix24, automating the daily ticket summary and trialling an AI digital assistant for staff.",
+      "role": "AI Agent & Automation",
+      "image": "./Asset/img/projects/novamed-ai-agent-en.svg"
+    }
+  },
+  {
+    "id": "student-api",
+    "type": "repo",
+    "title": "Student Management API",
+    "description": "RESTful Backend API quản lý thông tin sinh viên, gồm các endpoint tạo, đọc, cập nhật và xoá dữ liệu. Xây bằng Node.js, Express.js và MySQL theo mô hình MVC.",
+    "media": "https://github.com/zieptung/student-api",
+    "role": "Node.js · Express · MySQL",
+    "year": "2026",
+    "category": "Backend",
+    "image": "./Asset/img/projects/student-api.svg",
+    "en": {
+      "description": "RESTful backend API for managing student records, with endpoints to create, read, update and delete data. Built with Node.js, Express.js and MySQL using the MVC pattern."
+    }
+  },
+  {
+    "id": "course-registration",
+    "type": "repo",
+    "title": "Student Course Registration System",
+    "description": "Ứng dụng desktop C# cho đăng ký tín chỉ. Có màn hình quản trị cho sinh viên, giảng viên, môn học, lớp học phần và người dùng, cùng màn hình để sinh viên đăng ký và xem danh sách tín chỉ đã đăng ký.",
+    "media": "https://github.com/zieptung/StudentCourseRegistrationSystem",
+    "role": "C# · .NET Desktop",
+    "year": "2026",
+    "category": "Desktop",
+    "image": "./Asset/img/projects/course-registration.svg",
+    "en": {
+      "description": "C# desktop app for course credit registration. Includes admin screens for students, lecturers, subjects, course sections and users, plus screens where students register and view their registered credits."
+    }
+  },
+  {
+    "id": "btaplon",
+    "type": "repo",
+    "title": "Web quản lý sinh viên (btaplon)",
+    "description": "Website PHP với ba khu vực riêng cho admin, giảng viên và sinh viên. Có đăng nhập, khôi phục tài khoản và trang quản trị để thêm, sửa, xoá sinh viên và giảng viên.",
+    "media": "https://github.com/zieptung/btaplon",
+    "role": "PHP · CSS · JavaScript",
+    "year": "2025",
+    "category": "Web",
+    "image": "./Asset/img/projects/btaplon.svg",
+    "en": {
+      "title": "Student Management Website (btaplon)",
+      "description": "PHP website with separate areas for admins, lecturers and students. Includes login, account recovery and an admin area for adding, editing and deleting students and lecturers."
+    }
+  }
+]
