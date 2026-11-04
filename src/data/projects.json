@@ -3,7 +3,7 @@
     "id": "novamed-ai-agent",
     "type": "case",
     "title": "AI Agent tại Novamed",
-    "description": "Dựng AI agent trên OpenClaw cho từng phòng ban, bắt đầu từ phòng Kỹ thuật. Kết nối bot qua Telegram và Bitrix24, tự động tổng hợp ticket hằng ngày và thử nghiệm trợ lý số AI cho nhân viên.",
+    "description": "Đưa AI vào công việc hằng ngày của Novamed: dựng agent trên OpenClaw cho từng phòng ban, khởi đầu từ phòng Kỹ thuật. Bot làm việc ngay trên Telegram và Bitrix24, ticket được tự tổng hợp mỗi ngày, và trợ lý số AI đang được thử nghiệm cho nhân viên.",
     "media": "",
     "role": "AI Agent & Automation",
     "year": "2026",
@@ -11,7 +11,7 @@
     "image": "./Asset/img/projects/novamed-ai-agent.svg",
     "en": {
       "title": "AI Agent at Novamed",
-      "description": "Building AI agents on OpenClaw for each department, starting with the Technical department. Connecting bots through Telegram and Bitrix24, automating the daily ticket summary and trialling an AI digital assistant for staff.",
+      "description": "Bringing AI into daily work at Novamed: building agents on OpenClaw for each department, starting with the Technical team. Bots work right inside Telegram and Bitrix24, the daily ticket summary runs on its own, and an AI digital assistant is being trialled for staff.",
       "role": "AI Agent & Automation",
       "image": "./Asset/img/projects/novamed-ai-agent-en.svg"
     }
@@ -20,35 +20,37 @@
     "id": "student-api",
     "type": "repo",
     "title": "Student Management API",
-    "description": "RESTful Backend API quản lý thông tin sinh viên, gồm các endpoint tạo, đọc, cập nhật và xoá dữ liệu. Xây bằng Node.js, Express.js và MySQL theo mô hình MVC.",
+    "description": "Backend gọn gàng cho bài toán quản lý sinh viên: REST API đầy đủ thao tác tạo, đọc, cập nhật, xoá trên MySQL. Mã nguồn tách lớp theo mô hình MVC, mỗi request đi lần lượt qua Routes, Controllers rồi Models.",
     "media": "https://github.com/zieptung/student-api",
     "role": "Node.js · Express · MySQL",
     "year": "2026",
     "category": "Backend",
     "image": "./Asset/img/projects/student-api.svg",
     "en": {
-      "description": "RESTful backend API for managing student records, with endpoints to create, read, update and delete data. Built with Node.js, Express.js and MySQL using the MVC pattern."
+      "description": "A tidy backend for managing student records: a REST API with full create, read, update and delete on MySQL. The code is layered with MVC, so every request moves through Routes, Controllers and then Models.",
+      "image": "./Asset/img/projects/student-api-en.svg"
     }
   },
   {
     "id": "course-registration",
     "type": "repo",
     "title": "Student Course Registration System",
-    "description": "Ứng dụng desktop C# cho đăng ký tín chỉ. Có màn hình quản trị cho sinh viên, giảng viên, môn học, lớp học phần và người dùng, cùng màn hình để sinh viên đăng ký và xem danh sách tín chỉ đã đăng ký.",
+    "description": "Ứng dụng desktop C# số hoá việc đăng ký tín chỉ. Sinh viên tự đăng ký và xem lại các tín chỉ đã chọn, còn quản trị viên nắm sinh viên, giảng viên, môn học, lớp học phần và người dùng trên cùng một hệ thống.",
     "media": "https://github.com/zieptung/StudentCourseRegistrationSystem",
     "role": "C# · .NET Desktop",
     "year": "2026",
     "category": "Desktop",
     "image": "./Asset/img/projects/course-registration.svg",
     "en": {
-      "description": "C# desktop app for course credit registration. Includes admin screens for students, lecturers, subjects, course sections and users, plus screens where students register and view their registered credits."
+      "description": "A C# desktop app that takes course registration digital. Students register and review their own credits, while admins manage students, lecturers, subjects, course sections and users in one system.",
+      "image": "./Asset/img/projects/course-registration-en.svg"
     }
   },
   {
     "id": "btaplon",
     "type": "repo",
     "title": "Web quản lý sinh viên (btaplon)",
-    "description": "Website PHP với ba khu vực riêng cho admin, giảng viên và sinh viên. Có đăng nhập, khôi phục tài khoản và trang quản trị để thêm, sửa, xoá sinh viên và giảng viên.",
+    "description": "Website PHP gom ba vai trò vào một hệ thống: admin, giảng viên và sinh viên, mỗi vai trò có khu vực riêng. Có đăng nhập, khôi phục tài khoản và trang quản trị để thêm, sửa, xoá sinh viên và giảng viên.",
     "media": "https://github.com/zieptung/btaplon",
     "role": "PHP · CSS · JavaScript",
     "year": "2025",
@@ -56,7 +58,8 @@
     "image": "./Asset/img/projects/btaplon.svg",
     "en": {
       "title": "Student Management Website (btaplon)",
-      "description": "PHP website with separate areas for admins, lecturers and students. Includes login, account recovery and an admin area for adding, editing and deleting students and lecturers."
+      "description": "A PHP website that brings three roles into one system: admins, lecturers and students, each with their own area. It includes login, account recovery and an admin area for adding, editing and deleting students and lecturers.",
+      "image": "./Asset/img/projects/btaplon-en.svg"
     }
   }
 ]
